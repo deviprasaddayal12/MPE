@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MPE</string>
+    <string name="yes_im">Yes I\'m</string>
+    <string name="no_cancel">No, Cancel</string>
+    <string name="logout">Logout</string>
+    <string name="update_available">Update Available!</string>
+    <string name="update">Please update your app to enjoy latest features.</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="content_description">Description</string>
+</resources>

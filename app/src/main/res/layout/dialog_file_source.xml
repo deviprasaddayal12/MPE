@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="150dp"
+        android:layout_margin="@dimen/spacing_8"
+        style="@style/Widget.MaterialComponents.FloatingActionButton"
+        app:icon="@drawable/round_photo_camera_black_24"
+        android:text="Camera"
+        app:backgroundTint="@color/colorAccent"
+        android:textColor="@color/colorWhite"
+        app:iconTint="@color/colorWhite"
+        android:id="@+id/view_camera"/>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="150dp"
+        android:layout_margin="@dimen/spacing_8"
+        style="@style/Widget.MaterialComponents.FloatingActionButton"
+        app:icon="@drawable/round_photo_black_24"
+        android:text="Gallery"
+        app:backgroundTint="@color/colorAccent"
+        android:textColor="@color/colorWhite"
+        app:iconTint="@color/colorWhite"
+        android:id="@+id/view_gallery"/>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="150dp"
+        android:layout_margin="@dimen/spacing_8"
+        style="@style/Widget.MaterialComponents.FloatingActionButton"
+        app:icon="@drawable/round_folder_black_24"
+        android:text="Browser"
+        app:backgroundTint="@color/colorAccent"
+        android:textColor="@color/colorWhite"
+        app:iconTint="@color/colorWhite"
+        android:id="@+id/view_file_manager"/>
+
+</LinearLayout>
