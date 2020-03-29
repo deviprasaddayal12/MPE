@@ -7,4 +7,11 @@
     <string name="update">Please update your app to enjoy latest features.</string>
     <string name="no_internet_connection">No internet connection</string>
     <string name="content_description">Description</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="oops">Oops</string>
+    <string name="sorry">Sorry</string>
+    <string name="smiles">Smiles</string>
+    <string name="hey">Hey</string>
+    <string name="hey_you_sure">Hey! You sure?</string>
 </resources>
